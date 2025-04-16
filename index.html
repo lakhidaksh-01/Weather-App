@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather app</title>
+    <link rel="stylesheet" href="style01.css">
+</head>
+<body>
+    <header class="header-container">
+        <h1 class="main-heading">JavaScript <span style="color: green;">Weather</span> App</h1>
+        <p class="sub-heading">
+          Created by <a href="https://www.linkedin.com/in/daksh-lakhi" class="name-link">Daksh Lakhi</a>
+        </p>
+      </header>    
+
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Enter city name" spellcheck="false">
+            <button onclick="search()">
+                <img src="images/search.png" alt="search.png">
+            </button>
+        </div>
+        <div class="weather">
+            <img src="images/rain.png" alt="rain.png" class="weather-icon">
+            <h1 class="temp"></h1>
+            <h2 class="status"></h2>
+            <h2 class="city"></h2>
+            <div class="details">
+                <div class="col">
+                    <img src="images/humidity.png" alt="humidity">
+                    <div>
+                        <p class="humidity"></p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="images/wind.png" alt="wind">
+                    <div>
+                        <p class="wind"></p>
+                        <p>Wind speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
